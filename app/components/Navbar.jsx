@@ -12,7 +12,7 @@ export default function Navbar() {
   };
 
   return (
-    <header className="bg-white text=[#CEFF00] w-full ease-in duration-300 fixed top-0 left-0 z-10">
+    <header className="bg-white text=[#CEFF00] w-full ease-in duration-300 fixed top-0 left-0 z-10 border-b-2">
       <nav className="max-w-[1336px] mx-auto h-[100px] flex justify-between items-center p-4">
         {/* logo */}
         <div>
@@ -46,10 +46,10 @@ export default function Navbar() {
         <div className="hidden md:flex">
           <div className="flex">
             <Link href="/login">
-              <button className="border-2 border-[#ceff00] mr-5 bg-[#CCFF00]  hover:border-slate-800 test-slate-800 hover:bg-slate-800 hover:text-[#CEFF00] rounded-full uppercase font-bold px-8 py-2">login</button>
+              <button className="border-2 border-[#ceff00] mr-5 bg-[#CCFF00]  hover:border-slate-800 text-slate-800 hover:bg-slate-800 hover:text-[#CEFF00] rounded-full uppercase font-bold px-8 py-2">login</button>
             </Link>
             <Link href="/signup">
-              <button className="border-2 border-[#ceff00] text-white rounded-full hover:border-slate-800 hover:bg-slate-800 uppercase font-bold px-8 py-2 ">sign up</button>
+              <button className="border-2 border-[#ceff00] text-slate-800 rounded-full hover:border-slate-800 hover:bg-slate-800 hover:text-[#CEFF00] uppercase font-bold px-8 py-2 ">sign up</button>
             </Link>
           </div>
         </div>
